@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1f7a8c;
+}
+.bobble3dview{
+    width: 100px;
+    height: 100px;
+    background-color: #09e85e;
+    position: relative;
+    text-align: center;
+}
+section{
+    height: 100vh;
+    margin: 0 auto;
+}
+.sida2{
+    background-color: #022b3a;
+    
+}
+.sida2> header> h1{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #1f7a8c; 
+
+}
+p{
+  background-color: #09e85e;
+}
+label{
+    font-family: 'Titillium Web', sans-serif;
+    color: #09e85e;
+}
+.btn{
+    
+    width: 240px;
+    height: 60px;
+    background-color: #022b3a;
+    color: #09e85e;
+}
+.centeredButton{
+    margin-left: 15%;
+   
+  
+}
