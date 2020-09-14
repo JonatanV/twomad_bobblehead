@@ -33,14 +33,33 @@ label{
     color: #09e85e;
 }
 .btn{
-    
+    font-family: 'Titillium Web', sans-serif;
     width: 240px;
     height: 60px;
     background-color: #022b3a;
     color: #09e85e;
+
 }
 .centeredButton{
     margin-left: 15%;
    
   
+}
+
+.btn2{
+    font-family: 'Titillium Web', sans-serif;
+    width: 240px;
+    height: 60px;
+    background-color: #1f7a8c;
+    color: #F9F9F9;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 800;
+    text-align: center;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
 }
