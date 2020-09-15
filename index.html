@@ -76,29 +76,37 @@
         <header>
             <h1>Intresseanmälan</h1>
         </header>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, ab laborum. Eveniet incidunt explicabo
-            officiis quos culpa a repellendus ab saepe maiores non, quod fugiat dolores ratione nulla! Dolor, quidem!
+        <div class="container">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, ab laborum. Eveniet incidunt explicabo
+                officiis quos culpa a repellendus ab saepe maiores non, quod fugiat dolores ratione nulla! Dolor,
+                quidem!
 
-        </p>
+            </p>
+        </div>
 
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
+        <form id="specialForm">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group">
-                <label for="formControlRange">How much are you willing to pay?</label>
-                <input type="range" class="form-control-range" id="formControlRange">
+                <label for="exampleFormControlInput1">Full name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
             </div>
-            <div class="centeredButton">
-                <input class="btn2" type="submit" value="Submit">
+            </div>
+        </form>
+        <form>
+            <div class="container">
+                <div class="form-group2">
+                    <label for="formControlRange">How much are you willing to pay?</label>
+                    <div class="slidecontainer">
+                        <input type="range" min="100" max="300" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="centeredButton">
+                        <input class="btn2" type="submit" value="Submit">
+                    </div>
+                </div>
             </div>
         </form>
     </section>

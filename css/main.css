@@ -1,43 +1,51 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #1f7a8c;
 }
-.bobble3dview{
+
+.bobble3dview {
     width: 100px;
     height: 100px;
     background-color: #09e85e;
     position: relative;
     text-align: center;
 }
-section{
+
+section {
     height: 100vh;
     margin: 0 auto;
 }
-.sida2{
+
+.sida2 {
     background-color: #022b3a;
-    
 }
-.sida2> header> h1{
+
+.sida2>header>h1 {
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    color: #1f7a8c; 
+    color: #F9F9F9;
+}
 
+p {
+    background-color: #09e85e;
+    width: 100%;
 }
-p{
-  background-color: #09e85e;
-}
-label{
+
+label {
     font-family: 'Titillium Web', sans-serif;
     color: #09e85e;
 }
-.centeredButton{
+
+.centeredButton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.btn{
+
+.btn {
     font-family: 'Titillium Web', sans-serif;
     width: 80%;
     height: 10vh;
@@ -47,8 +55,7 @@ label{
     font-weight: 800;
 }
 
-
-.btn2{
+.btn2 {
     font-family: 'Titillium Web', sans-serif;
     width: 240px;
     height: 60px;
@@ -65,16 +72,75 @@ label{
     line-height: 1.5;
     border-radius: .25rem;
 }
-h2{
+
+h2 {
     text-align: center;
     background-color: #09e85e;
     color: #022b3a;
     width: 100%;
     height: 30vh;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 0%;
+    
 }
+
+#exampleFormControlInput1 {
+    border: none;
+    border-bottom: 2px solid #09e85e;
+    background-color: #022b3a;
+    border-radius: 0%;
+    width: 80%;
+}
+
+#specialForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    width: 45%;
+}
+
+.form-group2 {
+    width: 60%;
+}
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #F9F9F9;
+    outline: none;
+    border-radius: 20px;
+    
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #09e85e;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #09e85e;
+    border-radius: 20px;
+    cursor: pointer;
+  }
