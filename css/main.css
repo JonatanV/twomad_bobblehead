@@ -30,7 +30,8 @@ section {
 }
 
 p {
-    background-color: #09e85e;
+    font-family: 'Cuprum';
+    color: #09e85e;
     text-align: center;
     border-radius: 15px;
     border-style: none;
