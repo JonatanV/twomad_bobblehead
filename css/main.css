@@ -1,28 +1,20 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-
-.bobble3dview {
-    width: 100px;
-    height: 100px;
-    background-color: #09e85e;
-    position: relative;
-    text-align: center;
-}
-
 section {
     height: 100vh;
     margin: 0 auto;
     width: 100%;
 }
-.sida1{
+
+.sida1 {
     background-color: #1f7a8c;
 }
+
 .sida2 {
     background-color: #022b3a;
 }
+
 .sida2>header>h1 {
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
@@ -41,13 +33,6 @@ label {
     font-family: 'Titillium Web', sans-serif;
     color: #09e85e;
 }
-
-.centeredButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn {
     font-family: 'Titillium Web', sans-serif;
     width: 80%;
@@ -84,13 +69,6 @@ h2 {
     height: 30vh;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
 #exampleFormControlInput1 {
     border: none;
     border-bottom: 2px solid #09e85e;
@@ -99,38 +77,29 @@ h2 {
     width: 80%;
 }
 
-#specialForm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form-group {
-    width: 45%;
-}
 
 .form-group2 {
     width: 60%;
 }
+
 .slidecontainer {
     width: 100%;
-  }
-  
-  .slider {
+}
+
+.slider {
     -webkit-appearance: none;
     width: 100%;
     height: 25px;
     background: #F9F9F9;
     outline: none;
     border-radius: 20px;
-    
-  }
-  
-  .slider:hover {
+}
+
+.slider:hover {
     opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
+}
+
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
@@ -139,17 +108,21 @@ h2 {
     border-style: none;
     border-radius: 20px;
     cursor: pointer;
-  }
-  
-  .slider::-moz-range-thumb {
+}
+
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: #09e85e;
     border: 1px solid #1f7a8c;
     border-radius: 20px;
     cursor: pointer;
-  }
-  a> img{
-      height: 47px;
-      width: 75px;
-  }
+}
+
+a>img {
+    height: 50px;
+    width: 75px;
+}
+.navbar{
+    background-color: #1f7a8c;
+}
