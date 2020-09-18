@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 section {
     height: 100vh;
     margin: 0 auto;
@@ -33,6 +34,7 @@ label {
     font-family: 'Titillium Web', sans-serif;
     color: #09e85e;
 }
+
 .btn {
     font-family: 'Titillium Web', sans-serif;
     width: 80%;
@@ -77,11 +79,6 @@ h2 {
     width: 80%;
 }
 
-
-.form-group2 {
-    width: 60%;
-}
-
 .slidecontainer {
     width: 100%;
 }
@@ -123,6 +120,11 @@ a>img {
     height: 50px;
     width: 75px;
 }
-.navbar{
+
+.navbar {
     background-color: #1f7a8c;
+}
+
+span {
+    color: #09e85e;
 }
