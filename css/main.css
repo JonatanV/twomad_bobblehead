@@ -2,6 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+
+body {
+    font-family: 'Cuprum';
+}
+
+h1, h2, h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 section {
     height: 100vh;
     margin: 0 auto;
@@ -23,7 +32,6 @@ section {
 }
 
 p {
-    font-family: 'Cuprum';
     color: #09e85e;
     text-align: center;
     border-radius: 15px;
@@ -127,4 +135,7 @@ a>img {
 
 span {
     color: #09e85e;
+}
+.bg-primary{
+    background-color: #1f7a8c !important;
 }
