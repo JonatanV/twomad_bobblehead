@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: 'Cuprum';
 }
@@ -10,11 +9,8 @@ body {
 h1, h2, h3 {
     font-family: 'Titillium Web', sans-serif;
 }
-
-section {
-    height: 100vh;
-    margin: 0 auto;
-    width: 100%;
+.bg-white{
+    color: #FFF;
 }
 
 .sida1 {
@@ -23,12 +19,6 @@ section {
 
 .sida2 {
     background-color: #022b3a;
-}
-
-.sida2>header>h1 {
-    font-family: 'Titillium Web', sans-serif;
-    text-align: center;
-    color: #F9F9F9;
 }
 
 p {
@@ -122,11 +112,6 @@ h2 {
     border: 1px solid #1f7a8c;
     border-radius: 20px;
     cursor: pointer;
-}
-
-a>img {
-    height: 50px;
-    width: 75px;
 }
 
 .navbar {

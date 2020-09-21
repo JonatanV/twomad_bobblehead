@@ -22,15 +22,11 @@
         <div class="collapse navbar-collapse" id="navbarsExample01">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#sida1">BILDER<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#sida2">INTRESSEANMÄLAN</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-
             </ul>
 
         </div>
@@ -64,65 +60,52 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="container">
+    </section>
+    <section class="sida2" id="sida2">
             <div class="row">
                 <div class="col">
                     <div class="bobble3dview d-flex justify-content-center">
-                        <img src="img/3dview.png" class="img-fluid" alt="Responsive image">
+                        <img src="img/3dview.png" class="img-fluid mt-5 mb-5" alt="Responsive image">
                     </div>
-        
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="centeredButton d-flex align-items-right justify-content-center">
-                        <input class="btn" type="submit" value="Submit">
-                    </div>            
-                </div>
-            </div>
-    </section>
-    <section class="sida2">
         <div class="container">
-
-        </div>
-        <header>
-            <h1>Intresseanmälan</h1>
-        </header>
-        <div class="container text-center">
-            <p>
-                Informationen som ni lämnar ut kommer att användas för att kunna uppdatera er när bobbleheads kommer ut
-                samt att ge information om när de skickas efter att ni fått eran bobblehaeds så raderr vi eran
-                information och ni kommer inte längre finnas kvar i vårat system,
-
-            </p>
-        </div>
-
-        <form class="">
-            <div class="container d-flex align-items-center justify-content-center">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Full name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
-                </div>
-                </div>
+            <div class="container text-center">
+                <h1 class="text-light">INTRESSEANMÄLAN</h1>
+                <p>
+                    Informationen som ni lämnar ut kommer att användas för att kunna uppdatera er när bobbleheads kommer ut
+                    samt att ge information om när de skickas efter att ni fått eran bobblehaeds så raderr vi eran
+                    information och ni kommer inte längre finnas kvar i vårat system,
+    
+                </p>
             </div>
-            
-            <div class="container">
-                <div class="form-group text-center">
-                    <label for="formControlRange">How much are you willing to pay?</label>
-                    <div class="slidecontainer">
-                        <input type="range" min="100" max="300" value="100" class="slider" id="myRange">
-                        <p> <span id="demo"> </span>kr</p>
+            <form>
+                <div class="container d-flex align-items-center justify-content-center">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
                     </div>
-                    <div class="centeredButton d-flex align-items-right justify-content-center">
-                        <input class="btn2" type="submit" value="Submit">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Full name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
                     </div>
                 </div>
-            </div>
-        </form>
+                </div>
+    
+                <div class="container">
+                    <div class="form-group text-center">
+                        <label for="formControlRange">How much are you willing to pay?</label>
+                        <div class="slidecontainer">
+                            <input type="range" min="100" max="300" value="100" class="slider" id="myRange">
+                            <p> <span id="demo"> </span>kr</p>
+                        </div>
+                        <div class="centeredButton d-flex align-items-right justify-content-center">
+                            <input class="btn2 mb-5" type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
     <script>
         var slider = document.getElementById("myRange");
