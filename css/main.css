@@ -118,10 +118,10 @@ span {
 }
 
 @media screen and (min-width: 992px) {
-    img {
+    .products {
         
-        width: 25%;
-        height: 25%;
+        width: 45%;
+        height: 45%;
     }
     .logo {
         width: 100%;
